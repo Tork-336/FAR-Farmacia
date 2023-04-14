@@ -28,7 +28,7 @@ public class ConnectionBD
         this.connection = new MySqlConnection(connectionString);
     }
     
-    private bool OpenConnection()
+    public bool OpenConnection()
     {
         try
         {
@@ -51,7 +51,7 @@ public class ConnectionBD
         }
     }
     
-    private bool CloseConnection()
+    public bool CloseConnection()
     {
         try
         {
