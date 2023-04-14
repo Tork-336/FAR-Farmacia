@@ -18,7 +18,7 @@ public class ConnectionBD
     private void Initialize()
     {
         server = "localhost";
-        database = "connectcsharptomysql";
+        database = "mydb";
         uid = "username";
         password = "password";
         string connectionString;
