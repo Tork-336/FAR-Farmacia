@@ -1,5 +1,4 @@
-﻿using Data;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -8,7 +7,7 @@ using System.Data;
 using System.Web;
 using MySql.Data.MySqlClient;
 
-namespace Data
+namespace Data.User
 {
     internal class UserDat
     {
@@ -28,7 +27,7 @@ namespace Data
             return objData;
         }
 
-        public bool saveUser(string _mail_user,int _password_user, string _type_user)
+        public bool saveUser(string _mail_user, int _password_user, string _type_user)
         {
             bool executed = false;
             int row;
