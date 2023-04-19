@@ -9,7 +9,7 @@ using MySql.Data.MySqlClient;
 
 namespace Data.User
 {
-    internal class UserDat
+    public class UserDat
     {
         Persistence objPer = new Persistence();
         public DataSet showUser()
