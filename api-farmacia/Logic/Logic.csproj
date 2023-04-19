@@ -6,4 +6,19 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Remove="Driver\" />
+      <None Remove="Providers\" />
+    </ItemGroup>
+    <ItemGroup>
+      <Folder Include="Driver\" />
+      <Folder Include="Providers\" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Data\Data.csproj" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="MySql.Data" Version="8.0.33" />
+      <PackageReference Include="MySqlConnector" Version="2.2.5" />
+    </ItemGroup>
 </Project>
