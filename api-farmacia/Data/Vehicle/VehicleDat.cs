@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Data.Vehicle
 {
-    internal class VehicleDat
+    public class VehicleDat
     {
         Persistence objPer = new Persistence();
         public DataSet showVehicle()
