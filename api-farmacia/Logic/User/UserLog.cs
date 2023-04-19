@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Logic
+namespace Logic.User
 {
     public class UserLog
     {
